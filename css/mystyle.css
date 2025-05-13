@@ -1,0 +1,59 @@
+p{
+    color: rgb(134, 114, 165);
+}
+
+.conan{
+    background-color: brown;
+}
+
+.conan2{
+    background-color:pink;
+}
+
+.conan3{
+    background-color: rgb(98, 185, 176);
+}
+
+a.ashleylink{
+   padding: 0px 30px;
+   margin-left: 10px;
+   border-radius: 50px;
+   color: cornflowerblue;
+}
+
+a.ashleylink:hover{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+div.ashleydivgrey{
+    background-color: rgb(206, 204, 204);
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid rgb(192, 192, 192);
+   height: 100px;
+   margin:10px auto;
+   overflow: auto;
+}
+
+h4.ashleysmallh4{
+    font-size: 18px;
+}
+
+section#about.resume-section{
+    background-color: 	#E1C4C4;
+}
+
+.ashleycrop{
+    height:400px;
+    overflow: hidden;
+    object-fit: cover;
+    margin: 20px 10px;
+    border-radius: 10px;
+}
+
+.ashleycallmebg{
+    background-image: url("../assets/img/6.jpeg");
+    box-size:cover ;
+    background-repeat: no-repeat;
+}

@@ -18,11 +18,11 @@ a.ashleylink{
    padding: 0px 30px;
    margin-left: 10px;
    border-radius: 50px;
-   color: cornflowerblue;
+   color: rgb(255, 206, 209);
 }
 
 a.ashleylink:hover{
-    background-color: cornflowerblue;
+    background-color: rgb(121, 47, 49);
     color: white;
 }
 
@@ -45,7 +45,7 @@ section#about.resume-section{
 }
 
 .ashleycrop{
-    height:400px;
+    height:200px;
     overflow: hidden;
     object-fit: cover;
     margin: 20px 10px;

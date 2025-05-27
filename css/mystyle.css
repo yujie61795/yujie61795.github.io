@@ -1,5 +1,6 @@
 p{
-    color: rgb(134, 114, 165);
+    color: rgb(65, 56, 41);
+    font-size: 8px;
 }
 
 .conan{
@@ -7,7 +8,7 @@ p{
 }
 
 .conan2{
-    background-color:pink;
+    background-color:rgb(111, 0, 19);
 }
 
 .conan3{
@@ -18,7 +19,8 @@ a.ashleylink{
    padding: 0px 30px;
    margin-left: 10px;
    border-radius: 50px;
-   color: rgb(255, 206, 209);
+   color: rgb(134, 53, 59);
+   font-family: serif;
 }
 
 a.ashleylink:hover{
@@ -30,10 +32,7 @@ div.ashleydivgrey{
     background-color: rgb(206, 204, 204);
     padding: 30px;
     border-radius: 10px;
-    border: 2px solid rgb(192, 192, 192);
-   height: 100px;
-   margin:10px auto;
-   overflow: auto;
+   
 }
 
 h4.ashleysmallh4{
@@ -43,6 +42,8 @@ h4.ashleysmallh4{
 section#about.resume-section{
     background-color: 	#E1C4C4;
 }
+
+
 
 .ashleycrop{
     height:200px;
@@ -56,4 +57,26 @@ section#about.resume-section{
     background-image: url("../assets/img/6.jpeg");
     box-size:cover ;
     background-repeat: no-repeat;
+}
+
+@font-face {
+  font-family: 'NotoSerif';
+  src: url('./assets/fonts/NotoSerif-Regular.ttf') format('truetype');
+}
+
+body{
+  font-family: 'NotoSerif', serif;
+}
+
+.mb-0{
+    font-family: serif;
+}
+
+.yujieserif{
+    font-family: "Noto Serif TC",serif;
+}
+
+.yujiefont{
+    font-size: 16px;
+    color: rgb(65, 56, 41);
 }

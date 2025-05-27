@@ -21,6 +21,7 @@ a.ashleylink{
    border-radius: 50px;
    color: rgb(134, 53, 59);
    font-family: serif;
+   font-size: 16px;
 }
 
 a.ashleylink:hover{
@@ -30,8 +31,10 @@ a.ashleylink:hover{
 
 div.ashleydivgrey{
     background-color: rgb(206, 204, 204);
-    padding: 30px;
+    background-image: url("assets/img/234.jpeg"); 
+    font-weight: 30px;
     border-radius: 10px;
+    box-sizing: border-box;
    
 }
 
@@ -72,11 +75,30 @@ body{
     font-family: serif;
 }
 
+
+
 .yujieserif{
     font-family: "Noto Serif TC",serif;
 }
 
 .yujiefont{
-    font-size: 16px;
+    
     color: rgb(65, 56, 41);
+}
+
+section {
+    background-color: rgb(112, 62, 67);
+    background-image: url("../assets/img/123.jpeg");
+    background-size: cover;
+    background-repeat: repeat;
+    
+}   
+
+.yujiesize{
+    font-size: 64px;
+}
+
+.yujiesizesmall{
+    font-size: 40px;
+    color: rgb(65, 56, 41)
 }

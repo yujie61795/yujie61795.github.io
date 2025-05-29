@@ -1,6 +1,6 @@
 p{
-    color: rgb(65, 56, 41);
-    font-size: 8px;
+    color: rgba(62, 85, 115, 0.888);
+    font-size: 16px;
 }
 
 .conan{
@@ -30,13 +30,14 @@ a.ashleylink:hover{
 }
 
 div.ashleydivgrey{
-    background-color: rgb(206, 204, 204);
-    background-image: url("assets/img/234.jpeg"); 
-    font-weight: 30px;
+  
+    background-color: rgba(255, 228, 91, 0.228);
+    padding: 30px;
     border-radius: 10px;
-    box-sizing: border-box;
-   
+    border: 1px solid rgb(123, 146, 112);
 }
+   
+
 
 h4.ashleysmallh4{
     font-size: 18px;
@@ -57,9 +58,10 @@ section#about.resume-section{
 }
 
 .ashleycallmebg{
-    background-image: url("../assets/img/6.jpeg");
+    background-image: url("../assets/img/12.jpeg");
     box-size:cover ;
     background-repeat: no-repeat;
+    color: rgba(88, 248, 254, 0.767);
 }
 
 @font-face {
@@ -101,4 +103,24 @@ section {
 .yujiesizesmall{
     font-size: 40px;
     color: rgb(65, 56, 41)
+}
+
+.yujiesizes{
+    font-size: 44px;
+    color: rgb(52, 13, 13);
+}
+
+.yujiesmallcolor{
+    color: rgba(200, 122, 6, 0.655) ;
+}
+
+.yujie{
+    font-size: 30px;
+}
+.yujie2{
+    font-size: 20px;
+
+}
+.yujie3{
+    font-size: 16px;
 }

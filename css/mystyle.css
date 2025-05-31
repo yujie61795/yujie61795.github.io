@@ -106,7 +106,7 @@ section {
 }
 
 .yujiesizes{
-    font-size: 44px;
+    font-size: 41px;
     color: rgb(52, 13, 13);
 }
 
@@ -115,12 +115,22 @@ section {
 }
 
 .yujie{
-    font-size: 30px;
+    font-size: 27px;
+    color: #86473F;
 }
 .yujie2{
     font-size: 20px;
 
 }
 .yujie3{
-    font-size: 16px;
+    font-size: 14px;
+}
+.yujie4{
+    font-size: 24px;
+    color: #7D868D;
+}
+.background-image-container {
+    
+    background-size: cover;
+    background-position: center;
 }

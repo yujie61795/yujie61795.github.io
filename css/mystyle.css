@@ -57,6 +57,14 @@ section#about.resume-section{
     border-radius: 10px;
 }
 
+.ashleycrop2{
+    display: flex;
+    gap:15px;
+    width: 150px;
+    height:auto;
+    border-radius: 10px;
+}
+
 .ashleycallmebg{
     background-image: url("../assets/img/12.jpeg");
     box-size:cover ;

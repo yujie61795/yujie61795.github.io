@@ -32,3 +32,16 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+window.onscroll = function() {
+  let btn = document.getElementById("backToTopBtn");
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    btn.style.display = "block";
+  } else {
+    btn.style.display = "none";
+  }
+};
+
+// 平滑滾動回頂部
+function scrollToTop() {
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}

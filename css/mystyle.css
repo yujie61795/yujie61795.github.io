@@ -142,3 +142,22 @@ section {
     background-size: cover;
     background-position: center;
 }
+
+#backToTopBtn {
+  display: none; 
+  position: fixed;
+  bottom: 40px;
+  right: 30px;
+  z-index: 100;
+  font-size: 14px;
+  padding: 6px 10px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#backToTopBtn:hover {
+  background-color: #555;
+}
